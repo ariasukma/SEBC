@@ -1,3 +1,6 @@
+vm.swappiness = 1
+/dev/sdc1 on /data01 type ext3 (rw,relatime,seclabel,data=ordered)
+
 /* ----------------------------------------------------------------------------- */
 
 cat /proc/sys/vm/nr_hugepages
